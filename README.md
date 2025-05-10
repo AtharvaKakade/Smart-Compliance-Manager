@@ -22,7 +22,7 @@ Compliance Manager is a web application that helps organizations automate, assig
 |----------------|--------------------|
 | Frontend        | React.js           |
 | Backend         | Spring Boot        |
-| Database        | MySQL/PostgreSQL   |
+| Database        | MySQL   |
 | Authentication  | JWT / Spring Security |
 | File Storage    | Local     |
 | Reports         | iText / JasperReports (optional) |
