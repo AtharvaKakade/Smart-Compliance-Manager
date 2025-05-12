@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ComplianceManager.iml" filepath="$PROJECT_DIR$/.idea/ComplianceManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ComplianceManager/ComplianceManager.iml" filepath="$PROJECT_DIR$/ComplianceManager/ComplianceManager.iml" />
     </modules>
   </component>
 </project>
