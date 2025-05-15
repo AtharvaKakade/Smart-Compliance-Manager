@@ -5,6 +5,7 @@ import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Entity
 public class Project {
@@ -27,6 +28,10 @@ public class Project {
     @ManyToOne
     @JoinColumn(name = "manager_id")
     private User manager;
+
+    @OneToMany
+    private List<ComplianceItem> complianceItems;
+
 
     private LocalDateTime createdAt;
 
